@@ -5,8 +5,8 @@ var express = require('express');
 var app = express();
 var path = require('path');
     
-var port = process.env.PORT || process.env.OPENSHIFT_NODE_REENCRUPT_SERVICE_PORT || 8080;
-var ip   = process.env.IP   || process.env.OPENSHIFT_NODE_REENCRUPT_SERVICE_HOST || '0.0.0.0';
+var port = process.env.PORT || process.env.OPENSHIFT_NODE_REENCRYPT_SERVICE_PORT || 8080;
+var ip   = process.env.IP   || process.env.OPENSHIFT_NODE_REENCRYPT_SERVICE_HOST || '0.0.0.0';
 
 console.log(process.env);
 
